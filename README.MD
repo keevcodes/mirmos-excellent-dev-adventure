@@ -8,5 +8,8 @@
   4. If theres enough time, implement some cool animations/effects.
 
 ### Resources
-  [learning GIT](https://try.github.io/)
+  1. [learning GIT](https://try.github.io/)
+
+
+
 David and I will be checking throughout the week to see how progress is going and to provide any assistantance. HAVE FUN!
