@@ -3,19 +3,22 @@
   align-items: center;
   justify-content: center;
   background-color: #4e7eb4;
-  height: 70px;
+  width: 100vw;
+  height: 80px;
+
 }
 
 .nav li {
   display: inline-block;
   list-style-type: none;
+
 }
 
 .nav a {
-  padding: 30px;
-  height: auto;
+  padding: 30px 40px;
   color: #f8ec7d;
   text-decoration: none;
+
 }
 
 
