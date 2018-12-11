@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto');
+
+html{
+  font-size:10px;
+  --blue:#4e7eb4;
+  --yellow:#f8ec7d;
+}
+
+body{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family:'Helvetica', 'Arial';
+
+}
+
+h1, h2, h3, h4, h6{
+  color:var(--blue);
+}
