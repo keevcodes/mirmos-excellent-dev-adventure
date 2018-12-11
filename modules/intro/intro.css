@@ -3,6 +3,7 @@
 *{
   padding:0;
   margin:0;
+  letter-spacing: .05em;
 }
 
 .row{
@@ -19,10 +20,11 @@ h2{
   line-height:1.2;
 }
 h3{
-  font-size:2.5em;
+  font-size:2.1em;
   font-family: 'Open Sans';
   font-weight:300;
   margin-bottom: 30px;
+  text-transform:uppercase;
 }
 
 p{
@@ -33,14 +35,13 @@ p{
 }
 
 .vaultboy img{
-  max-width: 100%;
+  max-width: 90%;
   height:auto;
 }
 
 
 .contentwrapper{
   margin-left: 8%;
-  margin-right:8%;
   position:relative;
   padding: 0 25px;
   font-size:1.5em;
@@ -52,7 +53,6 @@ a{
   text-transform: capitalize;
   text-decoration: none;
   color:white;
-  letter-spacing: .05em;
 }
 
 .button{
