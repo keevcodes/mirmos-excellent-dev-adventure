@@ -6,14 +6,20 @@
   letter-spacing: .05em;
 }
 
-.row{
+.intro{
   max-width:1440px;
   display:flex;
   justify-content: space-between;
   padding: 100px 25px 50px;
   margin: 0 auto;
+  flex-direction:column;
 }
 
+@media (min-width:768px){
+  .intro{
+    flex-direction: row;
+  }
+}
 h2{
   font-size: 1.4em;
   font-weight:normal;
