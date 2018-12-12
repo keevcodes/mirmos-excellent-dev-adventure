@@ -39,7 +39,7 @@ filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 }
 
 .article-content{
- padding:2em;
+ padding:1em 2em;
 }
 
 .newstitle{
@@ -54,9 +54,9 @@ filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 h4{
   color:black;
   font-family:'Roboto', 'Open Sans', Arial;
-  font-size: 1.5em;
+  font-size: 1.8em;
   transition: color .2s ease-in;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 a:hover h4{
