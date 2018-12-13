@@ -1,12 +1,112 @@
 footer {
-  background: pink;
-  width: 100vw;
+  background: #2e4b6c;
+  width: 100%;
+  height: auto;
   padding: 40px 0;
   text-align: center;
   color: white;
 <<<<<<< HEAD
+<<<<<<< HEAD
   position: absolute;
+=======
+  position: relative;
+>>>>>>> feature-slider
   bottom: 0;
 =======
 >>>>>>> feature-news
+}
+
+.footerstart {
+  display: flex;
+}
+
+
+.footerlogos {
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+}
+
+.footerlogos img {
+  max-width: 150px;
+  height: auto;
+
+}
+
+.footerend{
+  display: flex;
+}
+
+.footertext {
+  justify-content: center;
+  align-items: center;
+  margin: 3% auto  ;
+  max-width: 30%;
+  font-size: 10px;
+}
+
+
+/* media queries */
+
+@media screen and (max-width : 768px) {
+  footer {
+    height: auto;
+  }
+
+  .footerstart{
+    display: flex;
+  }
+  .footerlogos {
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
+  }
+
+  .footerlogos img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .footertext {
+    justify-content: center;
+    align-items: center;
+    margin: 3% auto  ;
+    max-width: 20%;
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width : 414px) {
+  footer {
+
+    height: auto;
+
+  }
+  .footerstart {
+    display: block;
+  }
+  .footerend {
+    display: block;
+  }
+  .footerlogos {
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .footerlogos img {
+    max-width: 80px;
+    height: auto;
+  }
+
+  .footertext {
+
+    justify-content: center;
+    align-items: center;
+    margin: 3% auto  ;
+    max-width: 60%;
+    font-size: 8px;
+  }
+
 }

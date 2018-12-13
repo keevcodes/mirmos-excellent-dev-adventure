@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   background-color: #4e7eb4;
-  width: 100vw;
+  width: 100%;
   height: 80px;
 
 }
@@ -25,4 +25,31 @@
 .nav a:hover  {
   background-color: #7197c3;
   transition: 0.5s;
+}
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width : 768px) {
+  .nav a {
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 10px;
+
+  }
+
+}
+
+@media screen and (max-width : 414px) {
+  .nav a {
+    padding: 0px 20px;
+    margin: 40px 20px;
+    text-decoration: none;
+
+  }
 }
