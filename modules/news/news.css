@@ -11,16 +11,9 @@
 .articles{
   margin:auto;
   display:flex;
-  flex: 0 0 70%;
+  flex:1;
   flex-direction: column;
 }
-
-@media (min-width:768px) {
-  .articles{
-    flex-direction: row;
-  }
-}
-
 
 .article-card{
   padding: 0 20px;
@@ -48,7 +41,6 @@ filter: sepia(100%) hue-rotate(190deg) saturate(500%);
   margin-bottom: 10px;
   padding:20px;
   position:relative;
-  left:15%;
 }
 
 h4{
@@ -72,4 +64,16 @@ p{
   color:black;
   font-size: 1.2em;
   margin-bottom: 10px;
+}
+
+@media (min-width:768px) {
+  .articles{
+    flex-direction: row;
+    flex: 0 0 70%;
+  }
+  .newstitle{
+    left:15%;
+  }
+
+
 }

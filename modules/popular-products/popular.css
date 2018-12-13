@@ -1,0 +1,19 @@
+.cardwrapper{
+  display:flex;
+}
+
+.pop-wrapper{
+  display:flex;
+  text-align: center;
+}
+
+.pop-card{
+  background-color: #EFEFEF;
+  padding:10px 20px;
+  margin:10px 20px;
+}
+
+.cardwrapper img{
+  width:250px;
+  height:auto;
+}
