@@ -1,37 +1,72 @@
-.slider {
-
-
+.tns-nav {
+  text-align: center;
+  background-color: black;
+  height: 20px;
 }
+
+.tns-nav button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #f8ec7d;
+  background-color: #4e7eb4;
+  margin: 0 2px;
+}
+
+.tns-nav button:hover {
+  background-color: #f8ec7d;
+  border: 1px solid #4e7eb4;
+}
+
+.tns-nav .tns-nav-active {
+  background-color: #f8ec7d;
+  border: 1px solid #4e7eb4;
+  outline: none;
+}
+
+.tns-controls button {
+  /* width: 40px;
+  height: 20px;
+  background-color:#4e7eb4;
+  color: #f8ec7d;
+  margin: 0 1px;
+  border: 2px;
+  border-radius: 20%;
+  text-align: center; */
+  display: none;
+}
+
+
+
+.tns-controls button:nth-child(1) {
+  /* position: absolute;
+  bottom: 50%;
+  left: 0.5%;
+  z-index: 2; */
+}
+
+.tns-controls button:nth-child(2)  {
+  /* position: absolute;
+  bottom: 50%;
+  left: 95%;
+  z-index: 2; */
+}
+
 
 
 .slider img {
-  /* display: none; */
-  width: 100vw;
-  height: 90vh;
+  width: 100%;
+  height: auto;
 }
 
-.bulletswrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.bullets{
-  width: 10px;
-  height: 10px;
-  background: #ccc;
-  border-radius: 50%;
-  cursor: pointer;
-  margin: 0 15px;
+/* media queries */
+
+@media screen and (max-width : 768px) {
 
 
 }
 
+@media screen and (max-width : 414px) {
 
-.bullets:hover {
-  background: grey;
-}
-
-.bullets:active {
-  background: #066CB6;
 }
