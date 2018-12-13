@@ -1,19 +1,42 @@
-.cardwrapper{
-  display:flex;
-}
-
 .pop-wrapper{
   display:flex;
-  text-align: center;
+  margin: 5% 15%;
+}
+
+.cardwrapper{
+  display:flex;
+  justify-content: center;
+}
+
+.title{
+  text-align: left;
 }
 
 .pop-card{
-  background-color: #EFEFEF;
-  padding:10px 20px;
+  width:100%;
   margin:10px 20px;
+  text-align: center;
+  transition: all .2s ease-in;
+
+}
+
+.pop-card:hover{
+  box-shadow:0 14px 28px rgba(0,0,0,0.18), 0 10px 10px rgba(0,0,0,0.14);
+  transform: translateY(-10%);
 }
 
 .cardwrapper img{
-  width:250px;
-  height:auto;
+  width:200px;
+  padding: 10%;
+  background-color: #EFEFEF;
+}
+
+
+@media (max-width:768px) {
+  .pop-wrapper{
+    flex-direction: column;
+  }
+  .cardwrapper{
+    flex-flow: column;
+  }
 }
