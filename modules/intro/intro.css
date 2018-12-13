@@ -15,11 +15,6 @@
   flex-direction:column;
 }
 
-@media (min-width:768px){
-  .intro{
-    flex-direction: row;
-  }
-}
 h2{
   font-size: 1.4em;
   font-weight:normal;
@@ -45,9 +40,9 @@ p{
   height:auto;
 }
 
-
 .contentwrapper{
   margin-left: 8%;
+  margin-top: 10%;
   position:relative;
   padding: 0 25px;
   font-size:1.5em;
@@ -73,4 +68,10 @@ a{
 .button:hover{
   box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
   background-color: #3c71ad;
+}
+
+@media (min-width:768px){
+  .intro{
+    flex-direction: row;
+  }
 }
