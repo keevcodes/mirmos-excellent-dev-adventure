@@ -18,17 +18,20 @@ footer {
 
 .footerstart {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .footerlogos {
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 10%;
+  margin: 0% 10%;
 }
 
 .footerlogos img {
-  max-width: 150px;
+  max-width: 200%;
   height: auto;
 
 }
@@ -42,7 +45,7 @@ footer {
   align-items: center;
   margin: 3% auto  ;
   max-width: 30%;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 
@@ -63,7 +66,7 @@ footer {
   }
 
   .footerlogos img {
-    max-width: 100px;
+    /* max-width: 100px; */
     height: auto;
   }
 
@@ -72,7 +75,7 @@ footer {
     align-items: center;
     margin: 3% auto  ;
     max-width: 20%;
-    font-size: 10px;
+
   }
 
 }
@@ -96,7 +99,7 @@ footer {
   }
 
   .footerlogos img {
-    max-width: 80px;
+    max-width: 40%;
     height: auto;
   }
 
@@ -106,7 +109,7 @@ footer {
     align-items: center;
     margin: 3% auto  ;
     max-width: 60%;
-    font-size: 8px;
+
   }
 
 }
