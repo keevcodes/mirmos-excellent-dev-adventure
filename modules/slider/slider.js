@@ -4,6 +4,7 @@ setTimeout(function(){
       container: '.slider',
       items: 1,
       slideBy: 'page',
-      navPosition: 'bottom'
+      navPosition: 'bottom',
+      // autoplay: true
     });
 }, 50);
