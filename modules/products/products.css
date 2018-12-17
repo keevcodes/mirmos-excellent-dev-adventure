@@ -82,6 +82,11 @@
   position: absolute;
 }
 
+
+.boxeffect{
+  transition: filter .2s ease-in;
+}
+
 .boxeffect:first-child img:hover{
   filter:invert(100%)  sepia(80%)  hue-rotate(55deg) saturate(100);
 }
