@@ -1,6 +1,6 @@
 
 .pro{
-  margin: 0 15% 10% 15%;
+  margin: 15px 30px;
 }
 
 .pro-info{
@@ -105,7 +105,7 @@
 @media (max-width:768px) {
 
 .pro{
-  margin: 0 5%;
+  margin: 0 30px;
 }
 
 .pic-wrap{

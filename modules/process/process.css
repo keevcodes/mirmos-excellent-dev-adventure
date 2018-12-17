@@ -1,6 +1,6 @@
 .process{
   display:flex;
-  margin: 15px 25px;
+  margin: 15px 30px;
   flex-flow:column;
 }
 
@@ -24,11 +24,12 @@
 }
 
 .process-img{
-  width:100%;
+  max-width:100%;
+  position: relative;
 }
 
 .process-img img{
-  max-width:100%;
+  width:100%;
 }
 
 @media (min-width:758px) {
@@ -40,5 +41,6 @@
     position: relative;
     left:10%;
     top:30px;
+    min-width: 50%;
   }
 }
