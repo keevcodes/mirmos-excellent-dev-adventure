@@ -1,0 +1,44 @@
+.process{
+  display:flex;
+  margin: 15px 25px;
+  flex-flow:column;
+}
+
+.process-info{
+  background-color:#2E4B6C;
+  padding:25px;
+  margin-bottom: 5%;
+}
+
+.process-info>h3 {
+  color:white;
+  padding-bottom:15px;
+}
+.process-info>h2 {
+  color:white;
+  padding-bottom:15px;
+}
+.process-info>p {
+  color:white;
+  padding-bottom:15px;
+}
+
+.process-img{
+  width:100%;
+}
+
+.process-img img{
+  max-width:100%;
+}
+
+@media (min-width:758px) {
+  .process{
+    flex-flow: row;
+  }
+  .process-info{
+    z-index:2;
+    position: relative;
+    left:10%;
+    top:30px;
+  }
+}
