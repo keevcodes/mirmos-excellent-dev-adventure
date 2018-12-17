@@ -55,7 +55,7 @@ a:hover h4{
   color:var(--blue);
 }
 
-a:hover img{
+.articles a:hover img{
   transform:scale(1.3);
   filter:none;
 }
