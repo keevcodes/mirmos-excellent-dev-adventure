@@ -1,15 +1,26 @@
 .pop-wrapper{
   display:flex;
+<<<<<<< Updated upstream
+  margin: 10px 15px;
+=======
   margin: 5% 15%;
+>>>>>>> Stashed changes
+  flex-wrap:wrap;
 }
 
 .cardwrapper{
   display:flex;
   justify-content: center;
+  flex: 0 0 75%;
+  max-width: 75%;
+  flex-wrap:wrap;
 }
 
 .title{
   text-align: left;
+  flex: 0 0 25%;
+  max-width:25%;
+  padding: 0 15px;
 }
 
 .pop-card{
@@ -17,18 +28,33 @@
   margin:10px 20px;
   text-align: center;
   transition: all .2s ease-in;
-
+  flex:0 0 33.3333%;
+  max-width:33.333%;
 }
 
 .pop-card:hover{
   box-shadow:0 14px 28px rgba(0,0,0,0.18), 0 10px 10px rgba(0,0,0,0.14);
   transform: translateY(-10%);
+  cursor:pointer;
 }
 
-.cardwrapper img{
-  width:200px;
-  padding: 10%;
+
+.pop-img{
+  padding: 30px 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+<<<<<<< Updated upstream
+=======
+  height: 240px;
+>>>>>>> Stashed changes
+  overflow:hidden;
   background-color: #EFEFEF;
+}
+
+.pop-img img{
+  max-width:100%;
+  max-height:160px;
 }
 
 
