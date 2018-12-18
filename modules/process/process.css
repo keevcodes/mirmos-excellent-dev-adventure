@@ -20,7 +20,6 @@
   max-width:100%;
   min-width:50%;
   position:relative;
-  right:11%;
 }
 
 .process-img img{
@@ -37,5 +36,8 @@
     left:6%;
     top:30px;
     min-width: 50%;
+  }
+  .process-img{
+    right:11%;
   }
 }
