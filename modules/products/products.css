@@ -34,8 +34,7 @@
   bottom:16%;
 }
 
-
-.pro-boxes{
+ .pro-boxes{
   display:flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -56,8 +55,15 @@
   background-color: #EFEFEF;
   align-items:center;
   cursor:pointer;
-  top:20%;
+  top:10%;
   transition: box-shadow .2s ease-in;
+}
+
+.boxlayout img{
+  width:100%;
+  box-sizing: border-box;
+  padding:32%;
+  position: absolute;
 }
 
 .boxlayout:hover{
@@ -73,13 +79,6 @@
   width:50%;
   position:absolute;
   right:50px;
-}
-
-.boxlayout img{
-  width:100%;
-  box-sizing: border-box;
-  padding:32%;
-  position: absolute;
 }
 
 

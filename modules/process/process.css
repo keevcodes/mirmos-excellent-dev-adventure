@@ -2,6 +2,7 @@
   display:flex;
   margin: 15px 30px;
   flex-flow:column;
+  overflow:hidden;
 }
 
 .process-info{
@@ -10,22 +11,16 @@
   margin-bottom: 5%;
 }
 
-.process-info>h3 {
-  color:white;
-  padding-bottom:15px;
-}
-.process-info>h2 {
-  color:white;
-  padding-bottom:15px;
-}
-.process-info>p {
+.process-info>h3, .process-info>h2, .process-info>p {
   color:white;
   padding-bottom:15px;
 }
 
 .process-img{
   max-width:100%;
-  position: relative;
+  min-width:50%;
+  position:relative;
+  right:11%;
 }
 
 .process-img img{
@@ -39,7 +34,7 @@
   .process-info{
     z-index:2;
     position: relative;
-    left:10%;
+    left:6%;
     top:30px;
     min-width: 50%;
   }

@@ -51,7 +51,7 @@ p{
 
 a{
   font-size:1em;
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-decoration: none;
   color:white;
 }
